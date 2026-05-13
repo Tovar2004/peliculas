@@ -2,8 +2,8 @@ import { useReducer, useEffect, useMemo } from 'react'
 import { fetchNetflixTrending, fetchNetflixSeries, fetchNetflixNew } from '../services/netflix'
 import { SkeletonGrid } from '../components/Skeleton'
 import SearchBar from '../components/SearchBar'
-import NetflixCard from '../components/NetflixCard'
-import styles from './ExclusivePage.module.css'
+import NetflixCard from '../components/Netflixcard'
+import styles from './Exclusivepage.module.css'
 
 const TABS = [
   { id: 'trending', label: '🔥 Tendencia' },
